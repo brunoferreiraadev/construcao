@@ -1,0 +1,179 @@
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: mediumblue;
+    text-align: center;
+}
+
+.par {
+    position: absolute;
+    padding: 2px;
+    width: 70px;
+    color: black;
+    text-align: center;
+    background-color: white;
+    font-size: 10px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    border-radius: 3px;
+    left: 50%;
+    top: 50px;
+    transform: translate(-50%, -50%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 180px;
+    background-color: mediumblue;
+    padding-top: 33px;
+    z-index: 1;
+}
+
+nav a {
+    color: white;
+    border-radius: 20px 0 0 20px;
+    font-size: 15px;
+    display: block;
+    margin-bottom: 1px;
+    padding: 10px 10px 10px 15px;
+}
+
+a:hover {
+    color: black;
+    background-color: aqua;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+main {
+    background-color: aqua;
+    padding-left: 11%;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.center {
+    background-color: mediumblue;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding: 2px;
+}
+
+.login {
+    color: black;
+    background-color: #f5f5f5;
+    font-size: 15px;
+    text-align: center;
+    width: 15%;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 2px solid aqua;
+    margin-left: 5px;
+    padding: 4px;
+}
+
+.login:hover {
+    background-color: mediumblue;
+    transition: 0.6s;
+    color: white;
+}
+
+.rodape {
+    background-color: white;
+    top: 100%;
+    position: absolute;
+    padding: 6px;
+    width: 100%;
+    text-align: center;
+}
+
+.rodape a {
+    padding-left: 11%;
+    font-size: 10px;
+    width: 14%;
+    padding: 5px;
+    margin-left: 50%;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+.rodape a:hover {
+    background-color: mediumblue;
+    transition: 0.7s;
+    color: white;
+    font-weight: bold;
+    opacity: 90%;
+}
+
+
+h1 {
+    color: black;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.usuario {
+    background-color: #B0C4DE;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 380px;
+    transform: translate(-50%, -50%);
+    border-radius: 2px;
+    color: white;
+    text-align: center;
+    padding: 60px 10px 10px 10px;
+    top: 306px;
+}
+
+.dados {
+    border: none;
+    background-color: #F0FFF0;
+    outline: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 15px 10px;
+    width: 100%;
+    border-radius: 2px;
+}
+
+.botao {
+    width: 100%;
+    cursor: pointer;
+    padding: 15px;
+    background-color: #F0FFF0;
+    border: 1px solid #F0FFF0;
+    color: black;
+    text-align: center;
+    border-radius: 2px;
+    transition: 0.6s;
+}
+
+.botao:hover {
+    background-color: mediumblue;
+    cursor: pointer;
+    transition: 0.6s;
+    color: white;
+    border: 1px solid white;
+}
